@@ -159,7 +159,7 @@ namespace WeatherForecastBot
         // Точка входа в приложение.
         static async Task Main(string[] args)
         {
-            TelegramBotClient botClient = new TelegramBotClient("7180531130:AAHVg1JuSrM_7r-nalBdQtBgQPd_7aqmSEo");
+            TelegramBotClient botClient = new TelegramBotClient("token");
 
             using var cts = new CancellationTokenSource(); // Токен отмены для завершения работы.
 
